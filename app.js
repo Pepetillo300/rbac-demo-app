@@ -9,7 +9,7 @@ const APP_VERSION = process.env.APP_VERSION || 'v2';
 app.get('/', (req, res) => {
   res.send(`
     <html>
-      <head><title>Blue/Green Demo App</title></head>
+      <head><title>RBAC + CI/CD Demo</title></head>
       <body style="font-family: sans-serif; text-align:center; margin-top: 10%;">
         <h1>Blue/Green Deployment Demo</h1>
         <h2>Current version: <strong>${APP_VERSION}</strong></h2>
