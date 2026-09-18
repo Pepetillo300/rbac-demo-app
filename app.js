@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     <html>
       <head><title>RBAC + CI/CD Demo</title></head>
       <body style="font-family: sans-serif; text-align:center; margin-top: 10%;">
-        <h1>Blue/Green Deployment Demo</h1>
+        <h1>RBAC + CICD Demo</h1>
         <h2>Current version: <strong>${APP_VERSION}</strong></h2>
         <p>Served by pod: ${process.env.HOSTNAME || 'unknown'}</p>
       </body>
